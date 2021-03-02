@@ -1,0 +1,23 @@
+//User reducers types
+export const SET_AUTHENTICATED = "SET_AUTHENTICATED";
+export const SET_UNAUTHENTICATED = "SET_UNAUTHENTICATED";
+export const SET_USER = "SET_USER";
+export const LOADING_USER = "LOADING_USER";
+export const SUBMIT_PHOTO = "SUBMIT_PHOTO";
+//UI reducer types
+export const SET_ERRORS = "SET_ERRORS";
+export const LOADING_UI = "LOADING_UI";
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+export const LOADING_DATA = "LOADING_DATA";
+export const LOADING_DATA_OFFSCREAN = "LOADING_DATA_OFFSCREAN";
+export const STOP_LOADING_UI = "STOP_LOADING_UI";
+export const STOP_LOADING__OFFSCREAN_UI = "STOP_LOADING__OFFSCREAN_UI";
+//Data reducer types
+export const SET_MEMBERS = "SET_MEMBERS";
+export const SET_MEMBER = "SET_MEMBER";
+export const POST_MEMBER = "POST_MEMBER";
+export const SET_DRIVER_PERFORMANCE = "SET_DRIVER_PERFORMANCE";
+export const SET_DRIVER_PROFILE = "SET_DRIVER_PROFILE";
+export const SET_DRIVER_ALCOHOL_PROFILE = "SET_DRIVER_ALCOHOL_PROFILE";
+export const POST_USERLOG = "POST_USERLOG";
+export const DELETE_USER = "DELETE_USER";

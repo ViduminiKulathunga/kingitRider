@@ -1,0 +1,46 @@
+.Modal {
+    position: relative;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 50%;
+    top: 50%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.Modal p{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.Child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Loader {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid gray; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}

@@ -1,0 +1,40 @@
+.home-header-wrapper {
+  width: 100%;
+  height: auto;
+  background: rgb(1, 3, 7);
+  background: linear-gradient(
+    0deg,
+    rgba(1, 3, 7, 1) 0%,
+    rgba(2, 17, 31, 1) 14%,
+    rgba(1, 45, 75, 1) 100%
+  );
+}
+.banner-container {
+  width: 100%;
+  height: 300px;
+  display: block;
+}
+.banner-img {
+  background: url("../../images/banner/banner1.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+.banner-home {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logo-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.logo-home-grid {
+  height: 205px;
+}
+.logo-home {
+  margin: 0 auto;
+  height: 205px;
+}

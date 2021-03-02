@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Cinzel-Regular";
+  src: local("Cinzel-Regular"), url(./fonts/Cinzel-Regular.ttf) format("truetype");
+
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s;
+    transition-delay: background-color 5000s, color 5000s;
+}
+
+
+/* -- LANDSCAPE ONLY  -- */
+@media (min-width: 1024px) and (max-width: 1179px){}
+
+/* -- PORTRAIT ONLY -- */
+@media (min-width: 768px) and (max-width: 1023px){
+ 
+}

@@ -1,0 +1,24 @@
+.Dropdown_container{
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+}
+
+.Dropdown{
+    height: 40px;
+    width: 50%;
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    background-color: #e5fdfd;
+}
+
+.Dropdown_label{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}

@@ -1,0 +1,17 @@
+.toolbar{
+    background-color: #000e1b;
+}
+
+.nav-text,
+.nav-text div{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-text.active li{
+    background-color: #14273e;
+}
+
+.nav-text li:hover{
+    background-color: #012641;
+}
